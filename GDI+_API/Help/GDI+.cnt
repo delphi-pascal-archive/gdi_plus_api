@@ -1,0 +1,125 @@
+:TITLE GDI+ for Delphi
+:BASE GDI+.hlp
+1 A propos
+2 GDI+ Api for Delphi=GDI_Api_for_Delphi@GDI+.hlp
+2 Versions=Versions@GDI+.hlp
+2 Mentions legales=Mentions_legales@GDI+.hlp
+1 Classes & Structures
+2 Classes & Structures=Classes__Structures@GDI+.hlp
+2 TGdiPlusBase=TGdiPlusBase@GDI+.hlp
+2 TGPAdjustableArrowCap=TGPAdjustableArrowCap@GDI+.hlp
+2 TGPBitmap=TGPBitmap@GDI+.hlp
+2 TGPBrush=TGPBrush@GDI+.hlp
+2 TGPCachedBitmap=TGPCachedBitmap@GDI+.hlp
+2 TGPCustomLineCap=TGPCustomLineCap@GDI+.hlp
+2 TGPFont=TGPFont@GDI+.hlp
+2 TGPFontCollection=TGPFontCollection@GDI+.hlp
+2 TGPFontFamily=TGPFontFamily@GDI+.hlp
+2 TGPGraphics=TGPGraphics@GDI+.hlp
+2 TGPGraphicsPath=TGPGraphicsPath@GDI+.hlp
+2 TGPGraphicsPathIterator=TGPGraphicsPathIterator@GDI+.hlp
+2 TGPHatchBrush=TGPHatchBrush@GDI+.hlp
+2 TGPImage=TGPImage@GDI+.hlp
+2 TGPImageAttributes=TGPImageAttributes@GDI+.hlp
+2 TGPInstalledFontCollection=TGPInstalledFontCollection@GDI+.hlp
+2 TGPLinearGradientBrush=TGPLinearGradientBrush@GDI+.hlp
+2 TGPMatrix=TGPMatrix@GDI+.hlp
+2 TGPMetafile=TGPMetafile@GDI+.hlp
+2 TGPPathGradientBrush=TGPPathGradientBrush@GDI+.hlp
+2 TGPPen=TGPPen@GDI+.hlp
+2 TGPPoint=TGPPoint@GDI+.hlp
+2 TGPPointF=TGPPointF@GDI+.hlp
+2 TGPPrivateFontCollection=TGPPrivateFontCollection@GDI+.hlp
+2 TGPRect=TGPRect@GDI+.hlp
+2 TGPRectF=TGPRectF@GDI+.hlp
+2 TGPRegion=TGPRegion@GDI+.hlp
+2 TGPSize=TGPSize@GDI+.hlp
+2 TGPSizeF=TGPSizeF@GDI+.hlp
+2 TGPSolidBrush=TGPSolidBrush@GDI+.hlp
+2 TGPStringFormat=TGPStringFormat@GDI+.hlp
+2 TGPTextureBrush=TGPTextureBrush@GDI+.hlp
+1 Constantes & Variables
+2 Constantes & Variables=Constantes__Variables@GDI+.hlp
+2 Couleurs GDI+=Couleurs_GDI@GDI+.hlp
+1 Fonctions & Procédures
+2 Fonctions pour TGPSizeF
+3 Fonctions pour TGPSizeF=Fonctions_pour_TGPSizeF@GDI+.hlp
+3 GPSizeFMake=GPSizeFMake@GDI+.hlp
+3 GPSizeFAdd=GPSizeFAdd@GDI+.hlp
+3 GPSizeFSub=GPSizeFSub@GDI+.hlp
+3 GPSizeFEqual=GPSizeFEqual@GDI+.hlp
+3 GPSizeFEmpty=GPSizeFEmpty@GDI+.hlp
+3 GPSizeFGetMiddle=GPSizeFGetMiddle@GDI+.hlp
+2 Fonctions pour TGPSize
+3 Fonctions pour TGPSize=Fonctions_pour_TGPSize@GDI+.hlp
+3 GPSizeMake=GPSizeMake@GDI+.hlp
+3 GPSizeAdd=GPSizeAdd@GDI+.hlp
+3 GPSizeSub=GPSizeSub@GDI+.hlp
+3 GPSizeEqual=GPSizeEqual@GDI+.hlp
+3 GPSizeEmpty=GPSizeEmpty@GDI+.hlp
+3 GPSizeGetMiddle=GPSizeGetMiddle@GDI+.hlp
+2 Fonctions pour TGPPointF
+3 Fonctions pour TGPPointF=Fonctions_pour_TGPPointF@GDI+.hlp
+3 GPPointFMake=GPPointFMake@GDI+.hlp
+3 GPPointFAdd=GPPointFAdd@GDI+.hlp
+3 GPPointFSub=GPPointFSub@GDI+.hlp
+3 GPPointFEqual=GPPointFEqual@GDI+.hlp
+2 Fonctions pour TGPPoint
+3 Fonctions pour TGPPoint=Fonctions_pour_TGPPoint@GDI+.hlp
+3 GPPointMake=GPPointMake@GDI+.hlp
+3 GPPointAdd=GPPointAdd@GDI+.hlp
+3 GPPointSub=GPPointSub@GDI+.hlp
+3 GPPointEqual=GPPointEqual@GDI+.hlp
+2 Fonctions pour TGPRectF
+3 Fonctions pour TGPRectF=Fonctions_pour_TGPRectF@GDI+.hlp
+3 GPRectFMake=GPRectFMake@GDI+.hlp
+3 GPRectFGetLeft=GPRectFGetLeft@GDI+.hlp
+3 GPRectFGetTop=GPRectFGetTop@GDI+.hlp
+3 GPRectFGetRight=GPRectFGetRight@GDI+.hlp
+3 GPRectFGetBottom=GPRectFGetBottom@GDI+.hlp
+3 GPRectFEmptyArea=GPRectFEmptyArea@GDI+.hlp
+3 GPRectFEqual=GPRectFEqual@GDI+.hlp
+3 GPRectFContains=GPRectFContains@GDI+.hlp
+3 GPRectFInflate=GPRectFInflate@GDI+.hlp
+3 GPRectFIntersect=GPRectFIntersect@GDI+.hlp
+3 GPRectFIntersectWith=GPRectFIntersectWith@GDI+.hlp
+3 GPRectFUnion=GPRectFUnion@GDI+.hlp
+3 GPRectFOffset=GPRectFOffset@GDI+.hlp
+3 GPRectFGetMiddlePointF=GPRectFGetMiddlePointF@GDI+.hlp
+2 Fonctions pour TGPRect
+3 Fonctions pour TGPRect=Fonctions_pour_TGPRect@GDI+.hlp
+3 GPRectMake=GPRectMake@GDI+.hlp
+3 GPRectGetLeft=GPRectGetLeft@GDI+.hlp
+3 GPRectGetTop=GPRectGetTop@GDI+.hlp
+3 GPRectGetRight=GPRectGetRight@GDI+.hlp
+3 GPRectGetBottom=GPRectGetBottom@GDI+.hlp
+3 GPRectEmptyArea=GPRectEmptyArea@GDI+.hlp
+3 GPRectEqual=GPRectEqual@GDI+.hlp
+3 GPRectContains=GPRectContains@GDI+.hlp
+3 GPRectInflate=GPRectInflate@GDI+.hlp
+3 GPRectIntersect=GPRectIntersect@GDI+.hlp
+3 GPRectIntersectWith=GPRectIntersectWith@GDI+.hlp
+3 GPRectUnion=GPRectUnion@GDI+.hlp
+3 GPRectOffset=GPRectOffset@GDI+.hlp
+3 GPRectGetMiddlePoint=GPRectGetMiddlePoint@GDI+.hlp
+2 Fonctions pour ARGB/TGPColor
+3 Fonctions pour ARGB/TGPColor=Fonctions_pour_ARGBTGPColor@GDI+.hlp
+3 ARGBMake=ARGBMake@GDI+.hlp
+3 ARGBGetAlpha=ARGBGetAlpha@GDI+.hlp
+3 ARGBGetRed=ARGBGetRed@GDI+.hlp
+3 ARGBGetGreen=ARGBGetGreen@GDI+.hlp
+3 ARGBGetBlue=ARGBGetBlue@GDI+.hlp
+3 ARGBGetAll=ARGBGetAll@GDI+.hlp
+3 ARGBSetAlpha=ARGBSetAlpha@GDI+.hlp
+3 ARGBSetRed=ARGBSetRed@GDI+.hlp
+3 ARGBSetGreen=ARGBSetGreen@GDI+.hlp
+3 ARGBSetBlue=ARGBSetBlue@GDI+.hlp
+3 ARGBFromColorRef=ARGBFromColorRef@GDI+.hlp
+3 ARGBToColorRef=ARGBToColorRef@GDI+.hlp
+3 ARGBFromColor=ARGBFromColor@GDI+.hlp
+3 ARGBToColor=ARGBToColor@GDI+.hlp
+1 Types
+1 Unité
+2 GdipApi=GdipApi@GDI+.hlp
+2 GdipClass=GdipClass@GDI+.hlp
+2 GdipUtils=GdipUtils@GDI+.hlp

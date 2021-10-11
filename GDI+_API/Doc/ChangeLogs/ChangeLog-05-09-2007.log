@@ -1,0 +1,121 @@
+GdipApi refact by Deefaze - august 2007
+
+
+CHANGELOG [MAIN] ->
+
+  Renamed GDIPAPI.PAS to GdipApi.pas
+  Renamed GDIPOBJ.PAS to GdipClass.pas
+  Renamed GDIPUTIL.PAS to GdipUtils.pas
+  Adding original SDK of GDI+ (Windows XP SP2 version)
+  Remove "Demos" directory temporary 
+
+
+CHANGELOG [GdipApi.pas] ->
+
+  Remove Math unit reference in inteface Uses
+
+  Remove TGPSizeF and TGPSize function (MakeSize)
+
+  Remove TGPPointF and TGPPoint function (MakePoint)
+
+  Remove TGPRectF and TGPRect function (MakeRect)
+
+  Remove TGPColor functions
+    (MakeColor, ARGBToColorRef, ColorRefToARGB,
+     GetBlue, GetGreen, GetRed, GetAlpha)
+  
+  Adding functions for TGPSizeF structure
+    GPSizeFMake <-> MakeSize
+    GPSizeFAdd
+    GPSizeFSub
+    GPSizeFEqual
+    GPSizeFEmpty
+    GPSizeFGetMiddle
+    
+  Adding functions for TGPSize structure
+    GPSizeMake <-> MakeSize
+    GPSizeAdd
+    GPSizeSub
+    GPSizeEqual
+    GPSizeEmpty
+    GPSizeGetMiddle
+    
+  Adding functions for TGPPointF structure
+    GPPointFMake <-> MakePoint
+    GPPointFAdd
+    GPPointFSub
+    GPPointFEqual
+
+  Adding functions for TGPPoint structure  
+    GPPointMake <-> MakePoint
+    GPPointAdd
+    GPPointSub
+    GPPointEqual
+
+  Adding functions for TGPRectF structure
+    GPRectFMake <-> MakeRect
+    GPRectFMake
+    GPRectFGetLeft
+    GPRectFGetTop
+    GPRectFGetRight
+    GPRectFGetBottom
+    GPRectFEmptyArea
+    GPRectFEqual
+    GPRectFContains
+    GPRectFContains
+    GPRectFInflate
+    GPRectFIntersect
+    GPRectFIntersectWith
+    GPRectFUnion
+    GPRectFOffset
+    GPRectFGetMiddlePointF
+
+  Adding functions for TGPRect structure  
+    GPRectMake <-> MakeRect
+    GPRectMake
+    GPRectGetLeft
+    GPRectGetTop
+    GPRectGetRight
+    GPRectGetBottom
+    GPRectEmptyArea
+    GPRectEqual
+    GPRectContains
+    GPRectContains
+    GPRectInflate
+    GPRectIntersect
+    GPRectIntersectWith
+    GPRectUnion
+    GPRectOffset
+    GPRectGetMiddlePoint
+    
+  Adding functions for ARGB (TGPColor) manipulation
+    ARGBMake
+    ARGBMake
+    ARGBGetAlpha
+    ARGBGetRed
+    ARGBGetGreen
+    ARGBGetBlue
+    ARGBGetAll
+    ARGBGetAll
+    ARGBSetAlpha
+    ARGBSetRed
+    ARGBSetGreen
+    ARGBSetBlue
+    ARGBFromColorRef
+    ARGBToColorRef
+    ARGBFromColor
+    ARGBToColor  
+    
+  Adding function for converting ColorRef to ARGB 
+    ConvertWindowsColorRef
+
+  Complete MASK constantes for color red, green, blue and invert mask 
+    RED_MASK, GREEN_MASK, BLUE_MASK, 
+    ALPHA_MASK_NOT, RED_MASK_NOT, GREEN_MASK_NOT, BLUE_MASK_NOT
+
+  Adding Windows color constante (XP Theme)
+  
+  Fixing bug (or non-sens using) with Windows Color (XP Theme)
+
+  Adding dynamic array type for
+    TGPSize, TGPSizeF, TGPPoint, TGPPointF, TGPRect, TGPRectF  
